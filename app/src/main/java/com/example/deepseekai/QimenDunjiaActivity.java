@@ -28,7 +28,7 @@ public class QimenDunjiaActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_qimen);
+        setContentView(R.layout.activity_qimen_dunjia);
         
         initViews();
         generatePaiPan();
@@ -102,7 +102,7 @@ public class QimenDunjiaActivity extends Activity {
                 String question = params[0];
                 
                 // DeepSeek API配置
-                String apiKey = "your_deepseek_api_key_here"; // 需要替换为真实的API密钥
+                String apiKey = "sk-d790ee8740544baab12e747c1a20daff"; // 已配置真实API密钥
                 String apiUrl = "https://api.deepseek.com/v1/chat/completions";
                 
                 // 构建请求数据
